@@ -43,13 +43,16 @@ body,*{
     align-items: center;
 }
 h1{
+    width:min-content;
     font-weight: 800;
     color:#F2F2F2;
+    margin: auto;
     font-family: 'IFC-HARDBALL';
-    background-color: #404040;
-    margin-left: 45%;
-    margin-right: 45%;
     padding-top: 0.15rem;
+    background-color: #404040;
+    padding: 0.3rem 1rem 0.2rem 1rem;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
 h6{
     background-color: #F24B59;
